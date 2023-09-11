@@ -1,12 +1,3 @@
-This is the Freeware Version of Pacific C. Pacific
-C is a high-performance C compiler for MS-DOS. It allows
-you to write ANSI-standard C programs and compile to run
-under the MS-DOS operating system. Pacific C will also
-operate under Windows in a DOS box, but will not generate
-Windows programs.
-
-See the end of this file for release notes.
-
 Getting Started:
 
 The only program you have to run is PPD. This is the
@@ -69,26 +60,7 @@ Email: hitech@htsoft.com
 Ftp:   ftp.htsoft.com
 
 
-
-Release notes:
-
-V7.51:	Fixed assembler problem that incorrectly assembled an fsub
-	instruction as an fsubr instruction. That's what happens when
-	you believe Intel's manuals!
-
-	The editor now hides a marked block after any cursor move,
-	search etc. This avoids the situation where a block was marked,
-	and remained enabled even though the cursor had been moved
-	elsewhere, and pressing the DEL key would delete the block
-	unexpectedly (and unrecoverably!)
-
-	The debugger has been fixed to read the new symbol table format
-	correctly. This means source level debugging now works. It also
-	now uses bios calls for console I/O, thus isolating it from
-	the debugged program's file I/O.
-
-
-                       Pacific C for MS-DOS, v7.51
+Pacific C for MS-DOS, v7.51
 
                             Freeware Version
 
@@ -150,12 +122,6 @@ V7.51:	Fixed assembler problem that incorrectly assembled an fsub
        Postal:
         PO Box 103, Alderley
         QLD 4051 Australia
-       
-       
-       Pacific C is copyrighted by HI-TECH Software. The Freeware
-       Version may be copied  and distributed  freely but only in
-       the original form with all component files intact.
-       
-       The latest Freeware Version  of  Pacific C may be obtained
-       from the  World Wide  Web: http://www.htsoft.com or by ftp 
+
+ http://www.htsoft.com or by ftp 
        from ftp.htsoft.com.
